@@ -34,7 +34,7 @@ msj_fun
 ChatADM () {
 local bot_retorno=" $LINE\n"
           bot_retorno+=" ENVIA TU ARCHIVO O COMPROBANTE AL ADM\n"
-          bot_retorno+=" MODELO EN EVOLUCCION DE @ChumoGH\n"
+          bot_retorno+=" MODELO EN EVOLUCCION DE @drowkid01\n"
           bot_retorno+="\n"
           bot_retorno+="$LINE\n"
 msj_fun
