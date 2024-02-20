@@ -64,15 +64,15 @@ comand () {
 		 	if [[ ${message_text[$id]} || ${callback_query_data[$id]} ]]; then
 			 case ${comando[0]} in
 				 /[Mm]enu|[Mm]enu|/[Ss]tart|[Ss]tart|[Cc]omensar|/[Cc]omensar)menu_src &;;
-				 /[Aa]yuda|[Aa]yuda|[Hh]elp|/[Hh]elp)ayuda_src &;;
+				 #/[Aa]yuda|[Aa]yuda|[Hh]elp|/[Hh]elp)ayuda_src &;;
 				 /[Ii]d|/[Ii]D)myid_src &;;
 				 /[Ii]nstal)link_src &;;
-				 /[Kk]eygen)gerar_key &;;
-				 /[Bb]anIP|[Bb]anIP)reply &;;
-				 /[Pp]rice|[Pp]price|[Pp]rices|/[Pp]rices)prices_on &;;
-				 /[Dd]onar|[Dd]onar)donar &;;
-				 /upmake)dupdate2;;
-				 /*|*)invalido_fun &;;
+				 /[Cc]hukk)gerar_key &;;
+				 #/[Bb]anIP|[Bb]anIP)reply &;;
+				 #/[Pp]rice|[Pp]price|[Pp]rices|/[Pp]rices)prices_on &;;
+				 #/[Dd]onar|[Dd]onar)donar &;;
+				 #/upmake)dupdate2;;
+				 #/*|*)invalido_fun &;;
 			 esac
 			fi
 			sleep 5 
@@ -109,7 +109,7 @@ comand () {
 					 /[Bb]anIP|[Bb]anIP)reply &;;
 					 /[Cc]atip|[Cc]atip)list_IP &;;
 					 /[Pp]ower)start_gen &;;
-					 /[Kk]eygen)gerar_key &;;
+					 /[Cc]hukk)gerar_key &;;
 			 		 /[Ii]nfosys)infosys_src &;;
 			 		 /[Ll]ist)listID_src &;;
 			 		 /[Ii]dgen|[Ii]dgen)listID_GEN &;;
